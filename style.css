@@ -1,0 +1,112 @@
+body {
+    background-color: antiquewhite;
+    font-family:'Times New Roman', Times, serif
+}
+a {
+    text-decoration: none;
+    color:dimgray;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color:aqua;
+}
+a:visited {
+    color:darkgrey;
+}
+
+.header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.avatar {
+    width: 220px;
+    border-radius: 30px;
+}
+
+.container {
+    margin: auto;
+    max-width: 750px;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-text {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+    font-style: italic;
+  
+}
+.job {
+  background-color:darkturquoise;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.knowledge {
+    background-color:lightblue;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.hobbi {
+    background-color:olive;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+ .tableJob {
+     width: 100%
+ }
+.tableJob td {
+    padding-bottom: 10px;
+}
+.form h2 {
+    text-align: center;
+}
+.form {
+    color: rgb(68, 65, 65)
+}
+.form-group input {
+    padding: 15px 0px;
+    outline: none;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid darkgrey
+
+}
+.form textarea {
+    padding: 15px 0px;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid darkgray
+}
+.form-group label{
+    font-size: 14px;
+}
+.row {
+    display: flex;
+}
+.row > .form-group {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.row > .form-group:first-child {
+margin-right: 20px;
+}
+
+.btn {
+    background:black;
+    color:white;
+    padding: 15px;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
